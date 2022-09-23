@@ -86,6 +86,20 @@
 }
 .select {
     background-color: azure;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+.select-izq {
+    background-color: chartreuse;
+}
+.select-der {
+    background-color: chartreuse;
+}
+.select2 {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
 }
 .detalle {
     background-color: cyan;
