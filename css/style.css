@@ -1,0 +1,92 @@
+.gameboy {
+    height: 600px;
+    width: 400px;
+    background-color: aqua;
+    border: 3px solid blue;
+    display: grid;
+    grid-template-rows: 1fr 4fr 5fr;
+}
+.borde-pantalla {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pantalla {
+    height: 90%;
+    width: 85%;
+    background-color: black;
+    
+}
+.teclado {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.botones {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.direccion {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.direccion2 {
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.flecha {
+    background-color: black;
+}
+.reset {
+    background-color: crimson;
+    display: grid;
+    grid-row: 1fr 2fr;
+    
+}
+.reset2 {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.reset3 {    
+    height: 60%;
+    width: 60%;
+    background-color: black;
+    border-radius: 100%;
+}
+.enter {
+    background-color: deeppink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enter2 {
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.letras {
+    background-color: black;
+    border-radius: 100%;
+}
+.start {
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.select {
+    background-color: azure;
+}
+.detalle {
+    background-color: cyan;
+}
