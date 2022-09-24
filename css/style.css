@@ -1,106 +1,238 @@
 .gameboy {
     height: 600px;
-    width: 400px;
-    background-color: aqua;
-    border: 3px solid blue;
+    width: 380px;
+    background-color: rgba(209, 130, 29, 255);
+    border: 15px solid rgba(241, 159, 47, 255);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+    border-style: outset;
+    box-shadow: 0 10px 25px 0px;
     display: grid;
     grid-template-rows: 1fr 4fr 5fr;
 }
-.borde-pantalla {
-    background-color: blueviolet;
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.logo2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.logo-gameboy {
+    height: 75%;
+    width: 75%;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/9/Nintendo-Logo-PNG-Clipart-Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.borde-pantalla {
+    background-color: rgba(17, 27, 39, 255);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .pantalla {
-    height: 90%;
+    height: 85%;
     width: 85%;
     background-color: black;
-    
+
 }
+
 .teclado {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 10fr 45fr 45fr;
+    font-family: sans-serif;
 }
+
 .botones {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
 }
+
 .direccion {
-    background-color: darkgreen;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .direccion2 {
-    height: 80%;
-    width: 80%;
-    background-color: aqua;
+    height: 70%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
 .flecha {
-    background-color: black;
+    background-color: rgba(17, 27, 39, 255);
 }
+
+#flecha-izq {
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/arrow_left_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2.5px solid black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#flecha-der {
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/arrow_right_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#flecha-up {
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/arrow_drop_up_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 2.5px solid black;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#flecha-down {
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/arrow_drop_down_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
 .reset {
-    background-color: crimson;
     display: grid;
     grid-row: 1fr 2fr;
+
+}
+
+.reset2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
-.reset2 {
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-.reset3 {    
-    height: 60%;
-    width: 60%;
-    background-color: black;
+
+.reset3 {
+    height: 50%;
+    width: 50%;
+    background-color: rgba(17, 27, 39, 255);
+    background-image: url(../image/pause.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     border-radius: 100%;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
 }
+
 .enter {
-    background-color: deeppink;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .enter2 {
     height: 80%;
     width: 80%;
-    background-color: aqua;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
 .letras {
-    background-color: black;
+    background: radial-gradient(#293340, #111b27);
     border-radius: 100%;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
 }
+
 .start {
-    background-color: chartreuse;
+    border-bottom-right-radius: 50%;
     display: grid;
     grid-template-columns: 6fr 4fr;
 }
+
 .select {
-    background-color: azure;
     display: grid;
-    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr 3fr;
 }
-.select-izq {
-    background-color: chartreuse;
-}
-.select-der {
-    background-color: chartreuse;
-}
+
 .select2 {
-    background-color: blueviolet;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    grid-template-columns: 2fr 2fr 1fr 2fr 1fr;
+    gap: 1px;
+}
+
+.select-izq {
+    background-color: rgba(17, 27, 39, 255);
+    border-radius: 1rem;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.select-der {
+    background-color: rgba(17, 27, 39, 255);
+    border-radius: 1rem;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.select-letters {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr 1fr;
+    gap: 1px;
+    font-size: smaller;
+    font-family: sans-serif;
+}
+.boton-select {
+    margin-left: 5%;
+}
+.boton-start {
+    margin-left: 12%;
 }
 .detalle {
-    background-color: cyan;
+    border-bottom-right-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dentro {
+    height: 50%;
+    width: 50%;
+    background-image: url(../image/filter_list_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    transform: rotate(130deg);
+}
+.detalle-arriba {
+
 }
