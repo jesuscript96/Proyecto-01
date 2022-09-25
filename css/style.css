@@ -59,7 +59,7 @@
     transition: background-color 1s linear;
     overflow: hidden;
 }
-
+/* Efectos del juego */
 .mediodia {
     background-color: #ffdcf3;
 }
@@ -194,7 +194,7 @@
     align-items: center;
     justify-content: center;
 }
-
+/* A continuación el div hijo de "dirección" para posicionar las flechas */
 .direccion2 {
     height: 70%;
     width: 70%;
@@ -258,7 +258,7 @@
     display: grid;
     grid-row: 1fr 2fr;
 }
-
+/* A continuación el div hijo de "reset" para posicionar el botón */
 .reset2 {
     display: flex;
     flex-direction: column;
@@ -267,7 +267,7 @@
     cursor: pointer;
 
 }
-
+/* A continuación el div hijo de "reset2" para posicionar el el logo de play-pause */
 .reset3 {
     height: 50%;
     width: 50%;
@@ -294,7 +294,7 @@
     align-items: center;
     justify-content: center;
 }
-
+/* A continuación el div hijo de "enter" para posicionar los botones con letras */
 .enter2 {
     height: 80%;
     width: 80%;
@@ -325,7 +325,7 @@
     display: grid;
     grid-template-rows: 2fr 1fr 1fr 3fr;
 }
-
+/* A continuación el div hijo de "select" para posicionar los botones START y SELECT */
 .select2 {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 2fr 1fr;
@@ -375,7 +375,7 @@
     align-items: center;
     justify-content: center;
 }
-
+/* A continuación el div hijo de "detalle" para posicionar el logo de la salida de sonido*/
 .dentro {
     height: 50%;
     width: 50%;
@@ -383,5 +383,3 @@
     background-size: cover;
     transform: rotate(130deg);
 }
-
-.detalle-arriba {}
