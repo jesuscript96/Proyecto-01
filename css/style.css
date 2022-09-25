@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .gameboy {
     height: 600px;
     width: 380px;
@@ -54,7 +55,126 @@
     height: 85%;
     width: 85%;
     background-color: black;
+    position: relative;
+    transition: background-color 1s linear;
+    overflow: hidden;
+}
 
+.mediodia {
+    background-color: #ffdcf3;
+}
+
+.tarde {
+    background-color: #ffadad;
+}
+
+.noche {
+    background-color: #aca8c7;
+}
+
+.dino {
+    width: 42px;
+    height: 42px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 21px;
+    z-index: 2;
+
+    background: url(/image/dino.png) repeat-x 0px 0px;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+.dino-corriendo {
+    animation: animarDino 0.25s steps(2) infinite;
+}
+
+.dino-estrellado {
+    background-position-x: -252px;
+}
+
+@keyframes animarDino {
+    from {
+        background-position-x: -84px;
+    }
+
+    to {
+        background-position-x: -252px;
+    }
+}
+
+.suelo {
+    width: 200%;
+    height: 42px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: url(../image/suelo.png) repeat-x 0px 0px;
+    background-size: 50% 42px;
+
+}
+
+.score {
+    width: 100px;
+    height: 30px;
+
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 10;
+
+    color: #d48871;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.cactus {
+    width: 46px;
+    height: 63px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 600px;
+    z-index: 1;
+    background: url(../image/cactus1.png) no-repeat;
+    background-size: contain;
+}
+
+.cactus2 {
+    width: 98px;
+    height: 63px;
+    background: url(../image/cactus2.png) no-repeat;
+    background-size: contain;
+}
+
+.nube {
+    width: 92px;
+    height: 26px;
+    top: 15px;
+
+    position: absolute;
+    z-index: 0;
+
+    background: url(../image/nube.png) no-repeat;
+    background-size: 92px 26px;
+}
+.game-over{
+    display: none;
+
+    position: absolute;
+    width: 100%;
+
+
+    text-align: center;
+    color: #88dec0;
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: 700;
 }
 
 .teclado {
@@ -143,7 +263,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .reset3 {
@@ -221,18 +341,22 @@
     font-size: smaller;
     font-family: sans-serif;
 }
+
 .boton-select {
     margin-left: 5%;
 }
+
 .boton-start {
     margin-left: 12%;
 }
+
 .detalle {
     border-bottom-right-radius: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .dentro {
     height: 50%;
     width: 50%;
@@ -240,6 +364,5 @@
     background-size: cover;
     transform: rotate(130deg);
 }
-.detalle-arriba {
 
-}
+.detalle-arriba {}
