@@ -58,9 +58,6 @@
     position: relative;
     transition: background-color 1s linear;
     overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-
 }
 
 .mediodia {
@@ -84,9 +81,8 @@
     left: 21px;
     z-index: 2;
 
-    background: url(/image/dino.png) repeat-x 0px 0px;
+    background: url(../image/dino.png) repeat-x 0px 0px;
     background-size: cover;
-    background-position-x: 0px;
 }
 
 .dino-corriendo {
