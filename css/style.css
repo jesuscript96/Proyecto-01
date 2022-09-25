@@ -204,6 +204,7 @@
 
 .flecha {
     background-color: rgba(17, 27, 39, 255);
+    cursor: pointer;
 }
 
 #flecha-izq {
@@ -255,7 +256,6 @@
 .reset {
     display: grid;
     grid-row: 1fr 2fr;
-
 }
 
 .reset2 {
@@ -263,6 +263,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -301,6 +302,7 @@
     align-items: center;
     justify-content: center;
     font-size: larger;
+    cursor: pointer;
 }
 
 .start {
@@ -325,6 +327,7 @@
     border-radius: 1rem;
     border-bottom: 2.5px solid black;
     border-right: 2.5px solid black;
+    cursor: pointer;
 }
 
 .select-der {
@@ -332,6 +335,7 @@
     border-radius: 1rem;
     border-bottom: 2.5px solid black;
     border-right: 2.5px solid black;
+    cursor: pointer;
 }
 
 .select-letters {

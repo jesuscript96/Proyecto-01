@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="pages/juego.html">
 
 </head>
 
@@ -36,7 +37,7 @@
                     <div class="direccion">
                         <div class="direccion2">
                             <div></div>
-                            <div id="flecha-up" class="flecha"></div>
+                            <div onclick="Saltar()" id="flecha-up" class="flecha"></div>
                             <div></div>
                             <div id="flecha-izq" class="flecha">
                             </div>
@@ -62,7 +63,7 @@
                             <div></div>
                             <div class="letras"><strong>Y</strong></div>
                             <div></div>
-                            <div class="letras"><strong>A</strong></div>
+                            <div onclick="Saltar()" class="letras"><strong>A</strong></div>
                             <div></div>
                             <div class="letras"><strong>B</strong></div>
                             <div></div>
@@ -83,7 +84,9 @@
                             <div></div>
                             <div class="boton-select">SELECT</div>
                             <div></div>
-                            <div class="boton-start">START</div>
+                            <div class="boton-start">
+                                <a href="./pages/juego.html">START</a>
+                            </div>
                             <div></div>
                         </div>
                         <div></div>
