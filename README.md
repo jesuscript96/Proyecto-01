@@ -16,6 +16,8 @@ Para jugar:
 En primer lugar, haz click en el botón "START" para iniciar el juego. 
 A continuación, utiliza el boton "A", la flecha direccionada hacia arriba o la barra espaciadora para saltar y poder esquivar los cactus. En caso de chocarte, un aviso de "Game Over" aparecerá sobre tu pantalla. En ese caso, si quieres volver a jugar, presiona el boton "START". Si quieres apagar la consola, presiona el botón central de reset, situado entre las flechas direccionadoras y los botones con letras.
 
+** Debido a un error no identificado, a diferencia de mi "Live Server" conectado a VSC, el dinosaurio no se ve. No obstante, puedes imaginar que su posición es la esquina inferior izquierda y jugar de la misma forma.
+
 # Tecnologías en uso
 Para desarrollar esta web interactiva se ha utilizado HTML para maquetar la web, CSS para darle estilo y Javascript para hacer el juego funcional
 
