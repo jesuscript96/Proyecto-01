@@ -79,7 +79,7 @@
     width: 42px;
     height: 42px;
 
-    position: relative;
+    position: absolute;
     bottom: 15px;
     left: 21px;
     z-index: 2;
