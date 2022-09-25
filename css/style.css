@@ -163,7 +163,8 @@
     background: url(../image/nube.png) no-repeat;
     background-size: 92px 26px;
 }
-.game-over{
+
+.game-over {
     display: none;
 
     position: absolute;
@@ -277,6 +278,15 @@
     border-radius: 100%;
     border-bottom: 2.5px solid black;
     border-right: 2.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset3 a {
+    text-decoration: none;
+    color: #111b27;
+    font-size: xx-small;
 }
 
 .enter {
@@ -336,6 +346,11 @@
     border-bottom: 2.5px solid black;
     border-right: 2.5px solid black;
     cursor: pointer;
+}
+
+.select-der a {
+    text-decoration: none;
+    color: #111b27;
 }
 
 .select-letters {
