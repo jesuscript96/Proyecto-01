@@ -207,6 +207,9 @@
     background-color: rgba(17, 27, 39, 255);
     cursor: pointer;
 }
+.flecha:active {
+    background: black;
+}
 
 #flecha-izq {
     height: 100%;
@@ -282,6 +285,9 @@
     align-items: center;
     justify-content: center;
 }
+.reset3:active {
+    background: black;
+}
 
 .reset3 a {
     text-decoration: none;
@@ -313,6 +319,9 @@
     justify-content: center;
     font-size: larger;
     cursor: pointer;
+}
+.letras:active {
+    background: black;
 }
 
 .start {
@@ -351,6 +360,9 @@
 .select-der a {
     text-decoration: none;
     color: #111b27;
+}
+.select-der:active {
+    background: black;
 }
 
 .select-letters {
