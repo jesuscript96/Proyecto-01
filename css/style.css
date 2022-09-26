@@ -294,6 +294,26 @@
     color: #111b27;
     font-size: xx-small;
 }
+.led {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.led-apagado {
+    width: 10%;
+    height: 10%;
+    background-color: rgba(17, 27, 39, 255);
+    border-radius: 100%;
+}
+.led-encendido {
+    width: 10%;
+    height: 10%;
+    background: greenyellow;
+    border-radius: 100%;
+    border-color: chartreuse;
+}
 
 .enter {
     display: flex;
