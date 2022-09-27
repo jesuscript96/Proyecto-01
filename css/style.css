@@ -310,9 +310,9 @@
 .led-encendido {
     width: 10%;
     height: 10%;
-    background: greenyellow;
+    background: rgb(145, 213, 43);
     border-radius: 100%;
-    border-color: chartreuse;
+    border: 1px solid chartreuse;
 }
 
 .enter {
